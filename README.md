@@ -1,5 +1,5 @@
 # instance_segmetation_tools
-[toc]
+[TOC]
 ## Requirement
 ```
 labelme==3.8.0
