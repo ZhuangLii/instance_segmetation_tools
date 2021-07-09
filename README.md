@@ -1,18 +1,33 @@
+<<<<<<< HEAD
 # instance_segmetation_tools
 [TOC]
 ## Requirement
+=======
+<a name="index">**Index**</a>
+<a href="#0">instance_segmetation_tools</a>  
+&emsp;<a href="#1">Requirement</a>  
+&emsp;<a href="#2">Support</a>  
+&emsp;&emsp;<a href="#3">MAP for detection</a>  
+&emsp;&emsp;<a href="#4">MIoU for instance segmentation</a>  
+&emsp;&emsp;<a href="#5">Detection Task Map Calculate</a>  
+<a href="#6">mAP of all classes</a>  
+<a href="#7">Number of ground-truth objects per class</a>  
+
+# <a name="0">instance_segmetation_tools</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+## <a name="1">Requirement</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+>>>>>>> 1e8fe17 (modify readme)
 ```
 labelme==3.8.0
 ```
-## Support
+## <a name="2">Support</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 - [x] trans labelme to mask (0 for background)
 - [x] trans labelme to COCO format data
 - [x] trans labelme to VOC format data
 - [x] MAP for detection 
 - [x] MIoU for instance segmentation
 
-### MAP for detection
-### MIoU for instance segmentation
+### <a name="3">MAP for detection</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### <a name="4">MIoU for instance segmentation</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 ***Pred mask & Label mask***
 ```
 [ 0, 0, 1, ....
@@ -43,19 +58,19 @@ mIOU: 62.82
 ```
 
 
-### Detection Task Map Calculate
+### <a name="5">Detection Task Map Calculate</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 copy from https://github.com/Cartucho/mAP
 
 ***What's New***
 - [x] We add precision and recall statistics in output.
 ```
-# mAP of all classes
+# <a name="6">mAP of all classes</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 mAP = 74.78%
 jt: tp 106, fp 18, fn 7, percision 0.855 recall 0.938
 qp: tp 51, fp 25, fn 29, percision 0.671 recall 0.637
 all classes: percision 0.785, recall 0.813
-# Number of ground-truth objects per class
+# <a name="7">Number of ground-truth objects per class</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 jt: 113
 qp: 80
 ```
