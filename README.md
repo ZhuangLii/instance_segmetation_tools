@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# instance_segmetation_tools
-[TOC]
-## Requirement
-=======
 <a name="index">**Index**</a>
 <a href="#0">instance_segmetation_tools</a>  
 &emsp;<a href="#1">Requirement</a>  
@@ -15,7 +10,6 @@
 
 # <a name="0">instance_segmetation_tools</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 ## <a name="1">Requirement</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
->>>>>>> 1e8fe17 (modify readme)
 ```
 labelme==3.8.0
 ```
