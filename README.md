@@ -1,12 +1,3 @@
-<a name="index">**Index**</a>
-<a href="#0">instance_segmetation_tools</a>  
-&emsp;<a href="#1">Requirement</a>  
-&emsp;<a href="#2">Support</a>  
-&emsp;&emsp;<a href="#3">MAP for detection</a>  
-&emsp;&emsp;<a href="#4">MIoU for instance segmentation</a>  
-&emsp;&emsp;<a href="#5">Detection Task Map Calculate</a>  
-<a href="#6">mAP of all classes</a>  
-<a href="#7">Number of ground-truth objects per class</a>  
 
 # <a name="0">instance_segmetation_tools</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 ## <a name="1">Requirement</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
