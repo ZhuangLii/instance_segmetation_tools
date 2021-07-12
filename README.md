@@ -10,6 +10,7 @@ labelme==3.8.0
 - [x] trans labelme to VOC format data
 - [x] MAP for detection 
 - [x] MIoU for instance segmentation
+- [x] Simple copy and paste for instance segmentation
 
 ### <a name="3">MAP for detection</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 ### <a name="4">MIoU for instance segmentation</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
