@@ -1,19 +1,20 @@
 
-# <a name="0">instance_segmetation_tools</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
-## <a name="1">Requirement</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+# instance_segmetation_tools
+## Requirement
 ```
 labelme==3.8.0
 ```
-## <a name="2">Support</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+## Support
 - [x] trans labelme to mask (0 for background)
 - [x] trans labelme to COCO format data
 - [x] trans labelme to VOC format data
 - [x] MAP for detection 
 - [x] MIoU for instance segmentation
 - [x] Simple copy and paste for instance segmentation
+- [x] mask png to labelme format json data
 
-### <a name="3">MAP for detection</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
-### <a name="4">MIoU for instance segmentation</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+
+### MIoU for instance segmentation
 ***Pred mask & Label mask***
 ```
 [ 0, 0, 1, ....
@@ -44,7 +45,7 @@ mIOU: 62.82
 ```
 
 
-### <a name="5">Detection Task Map Calculate</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### MAP for detection
 
 copy from https://github.com/Cartucho/mAP
 
